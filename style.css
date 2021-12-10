@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c0c0c0;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: center;
+  flex: 100%;
+}
+
+h1 {
+  margin-left: 15px;
+}
+
+i {
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 40px;
+}
+ul li {
+  padding: 12px;
+  border-radius: 10px;
+  background: whitesmoke;
+  margin-left: 15px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+}
+
+a {
+  color: #000080;
+}
