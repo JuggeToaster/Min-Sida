@@ -72,23 +72,32 @@ a:hover {
   }
 }
 
+.first {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  flex: 100%;
+  justify-content: flex-start;
+}
+
 .images {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   row-gap: 20px;
   column-gap: 20px;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 50px;
   width: 150px;
 }
 
-.rest {
-  display: flex;
-  background-color: brown;
-}
-
-img {
+#pics {
   box-shadow: 0 0 5px grey;
   cursor: pointer;
+}
+
+#site_logo {
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 50px;
 }
