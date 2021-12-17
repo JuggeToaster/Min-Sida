@@ -51,7 +51,7 @@ a {
   color: black;
 }
 
-a:hover {
+.links:hover {
   animation: hovering 2s infinite;
 }
 
@@ -72,7 +72,7 @@ a:hover {
 
 @keyframes floating {
   30% {
-    margin-top: 7px;
+    margin-top: 8px;
   }
 }
 
@@ -91,6 +91,7 @@ a:hover {
   column-gap: 20px;
   margin-left: 100px;
   margin-top: 50px;
+  flex: 100%;
 }
 
 #pics {
@@ -106,8 +107,15 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  [id*="site_logo"] {
-    flex-direction: row-reverse;
+  .first {
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  .images img {
+    width: 95%;
+  }
+  .images {
+    margin-left: 15px;
   }
 }
 
