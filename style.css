@@ -7,7 +7,7 @@ body {
   background-color: #eeeeee;
 }
 
-header {
+.homepage-nav {
   background-color: #c0c0c0;
   display: flex;
   align-items: center;
@@ -128,11 +128,62 @@ h2 {
   font-family: "Josefin Sans", sans-serif;
 }
 
-h3 {
+.membership-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   background-color: #88a0a8;
   box-shadow: 0 0 7px black;
   padding: 15px;
   font-family: "Fira Sans Condensed", sans-serif;
+}
+
+h4 {
+  margin-left: 450px;
+  font-size: 20px;
+}
+
+.form-membership {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+p {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  margin: 15px;
+  margin-top: 40px;
+  width: 150px;
+  background-color: rgb(0, 150, 0);
+  color: #eeeeee;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(0, 120, 0);
+}
+
+input[type="radio"] {
+  margin: 7px;
+}
+
+.homepage {
+  margin-left: auto;
+  margin-right: 20px;
 }
