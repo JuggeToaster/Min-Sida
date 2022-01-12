@@ -173,6 +173,11 @@ footer {
   text-decoration: none;
 }
 
+.list_footer li {
+  font-size: 14px;
+  text-decoration: none;
+}
+
 .webshop-nav {
   display: flex;
   justify-content: flex-start;
@@ -247,7 +252,19 @@ input[type="radio"] {
   font-size: 25px;
 }
 
+.login {
+  margin-left: auto;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+  font-size: 25px;
+}
+
 .homepage:hover {
+  animation: hovering 2s infinite;
+}
+
+.login:hover {
   animation: hovering 2s infinite;
 }
 
@@ -257,11 +274,24 @@ h5 {
 }
 
 input[name="search"] {
-  width: 100px;
+  width: 400px;
   transition: width 0.4s ease-in-out;
-  margin-left: 160px;
+  margin-left: 60px;
+  float: right;
 }
 
 input[name="search"]:focus {
-  width: 175px;
+  width: 525px;
+}
+
+.fa-search {
+  cursor: pointer;
+  outline: none;
+  float: left;
+  font-size: 35px;
+  border-left: none;
+}
+
+.fa-search:hover {
+  background-color: gray;
 }
