@@ -93,7 +93,7 @@ a {
   flex: 100%;
 }
 
-#pics {
+.pics {
   box-shadow: 0 0 5px grey;
   cursor: pointer;
 }
@@ -115,6 +115,18 @@ a {
   }
   .images {
     margin-left: 15px;
+  }
+  .homepage-nav {
+    align-items: center;
+    flex-direction: column;
+  }
+  .membership-nav {
+    align-items: center;
+    flex-direction: column;
+  }
+  .webshop-nav {
+    align-items: center;
+    flex-direction: column;
   }
 }
 
@@ -149,10 +161,14 @@ a {
 @media only screen and (max-width: 600px) {
   .second {
     align-items: center;
-    flex-wrap: wrap-reverse;
   }
   .graphs {
     margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #average_lifts {
+    margin-left: 0;
   }
 }
 
@@ -278,6 +294,10 @@ input[name="search"] {
   transition: width 0.4s ease-in-out;
   margin-left: 60px;
   float: right;
+  margin-right: 0;
+  border-radius: 0;
+  border-right: none;
+  border: none;
 }
 
 input[name="search"]:focus {
@@ -286,10 +306,9 @@ input[name="search"]:focus {
 
 .fa-search {
   cursor: pointer;
-  outline: none;
   float: left;
-  font-size: 35px;
-  border-left: none;
+  font-size: 33px;
+  border: none;
 }
 
 .fa-search:hover {
