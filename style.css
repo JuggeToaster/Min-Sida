@@ -94,8 +94,8 @@ a {
 }
 
 .pics {
-  box-shadow: 0 0 5px grey;
   cursor: pointer;
+  box-shadow: 0 0 5px gray;
 }
 
 #site_logo {
@@ -106,6 +106,9 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
   .first {
     align-items: center;
     flex-wrap: wrap-reverse;
@@ -313,4 +316,20 @@ input[name="search"]:focus {
 
 .fa-search:hover {
   background-color: gray;
+}
+
+.webshop_main {
+  display: flex;
+  flex-direction: row;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.products {
+  cursor: pointer;
 }
